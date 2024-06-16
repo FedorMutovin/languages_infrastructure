@@ -1,0 +1,59 @@
+# Node.js specific
+node_modules/
+npm-debug.log
+yarn-error.log
+yarn-debug.log
+
+# Dependency directories
+bower_components/
+jspm_packages/
+
+# CDK specific
+cdk.out/
+cdk.context.json
+
+# Build outputs
+dist/
+build/
+out/
+
+# Testing
+coverage/
+*.test.ts
+*.spec.ts
+
+# Editor directories and files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Operating system generated files
+.DS_Store
+Thumbs.db
+
+# Logs
+logs/
+*.log
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Miscellaneous
+*.tgz
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# If using TypeScript
+*.tsbuildInfo
+
+# If using Git
+.git/
+.gitignore
+.gitattributes

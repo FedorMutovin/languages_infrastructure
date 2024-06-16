@@ -10,7 +10,3 @@ RUN npm install -g aws-cdk
 
 # Copy your CDK project files to the container
 COPY . .
-
-# Install project dependencies
-RUN npm init
-RUN npm install
